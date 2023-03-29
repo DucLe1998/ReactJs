@@ -1,0 +1,17 @@
+.cus-tree-view {
+  /* height: calc(100% - 5px) !important; */
+  /* background-color: aquamarine; */
+}
+
+.droppable-gr-user {
+  /* border: 2px solid green */
+}
+
+.droppable.hover {
+  /* background-color: rgba(0, 0, 0, 0.2); */
+}
+
+.item-menu-group-user:hover {
+  background-color: #4B67E2;
+  color: #FFF
+}

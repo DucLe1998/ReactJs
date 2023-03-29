@@ -1,0 +1,44 @@
+.input-search {
+  height: 42px;
+  /* width: 237px; */
+  font-size: 14px;
+  background: #fafafa;
+  border: 1px solid rgba(60, 60, 67, 0.3);
+  box-sizing: border-box;
+  border-radius: 70px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.input-search:focus {
+  outline: none;
+}
+
+.custom-column-table {
+  height: 56px !important;
+}
+
+.dx-datagrid .dx-data-row>td.ct-dx-row {
+  /* padding-top: 0; */
+  /* padding-bottom: 0; */
+  height: 46px !important;
+}
+
+.dx-datagrid-nowrap,
+.dx-datagrid-nowrap .dx-header-row>td>.ct-dx-datagrid-text-content {
+  color: black !important
+}
+
+.ct-loading {
+  z-index: var(--z-index-loading);
+  top: 0;
+  left: 0;
+  height: 100pt;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e7e7e700;
+  border-radius: 10px;
+  position: absolute;
+}

@@ -1,0 +1,61 @@
+export const deviceList = {
+    "version": {
+        "os_version_name_indoor": "1.2.27",
+        "os_version_name_register": "1.2.98",
+        "os_firmware_name_indoor": "115.116.2.6969",
+        "os_firmware_name_register": "1.2.9",
+        "os_version_name_indoor_vvdn": "1.2.91",
+        "os_firmware_name_indoor_vvdn": "2.0.6",
+        "os_firmware_name_bell_vvdn": "2.0.8"
+    },
+    "count": 1,
+    "rows": [
+        {
+            "_id": "62aaac04c4843c10fe1d564b",
+            "sc_role": "ZO",
+            "device_type": "indoor_vvdn",
+            "is_public": false,
+            "activated": true,
+            "device_status": "ONLINE",
+            "elevators_allow": [],
+            "device_code": "22_9_indoor_vvdn_s2010901_60400246",
+            "device_name": "0901_Nói thì hay lắm",
+            "site_id": "5e6f5f243c170940089c627c",
+            "device_mac": "00:d2:79:dd:af:7b",
+            "sip_password": "123456aA@",
+            "sip_number": "8765",
+            "codec": "ulaw,alaw,vp8,h264",
+            "updated_date": "2022-06-16T04:05:24.106Z",
+            "created_date": "2022-06-16T04:05:24.106Z",
+            "__v": 0,
+            "device_ip": "10.148.32.34",
+            "device_app_status": "OLDER",
+            "device_firmware_status": "OLDER",
+            "os_firmware_bell_name": "2.0.0",
+            "os_firmware_name": "2.0.0",
+            "os_version_name": "1.2.88",
+            "site_info": {
+                "_id": "5e6f5f243c170940089c627c",
+                "site_type": "unit",
+                "activated": true,
+                "sites_allow": [],
+                "sites_allow_temp": [],
+                "is_public": false,
+                "time_delay": 0,
+                "area_id": 22,
+                "area_code": "Z/005-800",
+                "block_id": 9,
+                "block_code": "S2.01",
+                "floor_code": "09-S2.01",
+                "floor_id": 147,
+                "unit_id": 1443,
+                "unit_code": "S2.010901",
+                "site_name": "24S2010901",
+                "created_date": "2020-03-16T11:12:36.124Z",
+                "site_code": "Z/005-800_S2.01_09-S2.01_S2.010901",
+                "picture": "https://gravatar.com/avatar/0cfb71e930bb5e244515e7ff5fb5d117?d=identicon",
+                "__v": 0
+            }
+        }
+    ]
+}

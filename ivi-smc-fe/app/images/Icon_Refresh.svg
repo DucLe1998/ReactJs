@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25.189" height="18.957" viewBox="0 0 25.189 18.957">
+    <defs>
+        <style>
+            .cls-1{fill:#5993fd}
+        </style>
+    </defs>
+    <g id="Icon_Refresh" data-name="Icon/Refresh">
+        <g id="Group_6206" data-name="Group 6206">
+            <path id="Path_20285" d="M5567.347 3498.552l-4.711-5.235-4.71 5.235h3.252v.055a6.407 6.407 0 0 1-10.9 4.571l-2.054 2.286a9.478 9.478 0 0 0 16.021-6.857v-.055z" class="cls-1" data-name="Path 20285" transform="translate(-5542.158 -3489.129)"/>
+            <path id="Path_20286" d="M5526.223 3483.332a6.407 6.407 0 0 1 10.851-4.615l2.053-2.285a9.478 9.478 0 0 0-15.974 6.9h-3.136l4.711 5.235 4.711-5.235z" class="cls-1" data-name="Path 20286" transform="translate(-5520.018 -3473.855)"/>
+        </g>
+    </g>
+</svg>

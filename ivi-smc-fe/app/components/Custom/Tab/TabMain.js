@@ -1,0 +1,53 @@
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable jsx-a11y/no-static-element-interactions */
+import React, { useEffect } from 'react';
+import useUrlState from '@ahooksjs/use-url-state';
+
+const defaultValue = [
+  { label: 'Tab 1', key: '1' },
+  { label: 'Tab 2', key: '2' },
+];
+
+export function TabMain({ data, style = {} }) {
+  const arrTab = data || defaultValue;
+
+  const [state, setState] = useUrlState({ tab: arrTab[0].key });
+
+  useEffect(() => {
+    const found = arrTab.find((e) => e.key === state.tab);
+    if (!found) {
+      setState({ tab: arrTab[0].key });
+    }
+  }, [state]);
+
+  return (
+    <div
+      style={{
+        color: '#007BFF',
+        fontSize: 18,
+        ...style,
+      }}
+      className="ct-flex-row"
+    >
+      {arrTab.map((item, index) => (
+        <div
+          key={index.toString()}
+          style={{
+            cursor: 'pointer',
+            height: 50,
+            borderBottom: `${item.key == state.tab ? 2 : 0}px solid #007BFF`,
+            color: item.key == state.tab ? '' : '#00000048',
+            marginRight: 24,
+            fontWeight: item.key == state.tab ? 700 : 400,
+          }}
+          className="ct-flex-row"
+          onClick={() => setState({ tab: item.key })}
+        >
+          {item.label}
+        </div>
+      ))}
+    </div>
+  );
+}
+
+export default TabMain;

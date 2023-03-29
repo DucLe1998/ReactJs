@@ -1,0 +1,21 @@
+/* eslint-disable global-require */
+export const IconFlagRed = require('images/icon-button/flagRed.svg');
+export const IconFlagGray = require('images/icon-button/flagGray.svg');
+export const IconFilter = require('images/icon-button/filter.svg');
+export const IconClose = require('images/icon-button/close.svg');
+export const IconSearch = require('images/icon-button/Search.svg');
+export const IconSearchWhite = require('images/icon-button/SearchWhite.svg');
+export const IconAdd = require('images/icon-button/add.svg');
+export const IconEdit = require('images/icon-button/ic_edit.svg');
+export const IconNotFound = require('images/NotFound.svg');
+export const IconDelete = require('images/icon-button/delete.svg');
+export const IconExport = require('images/icon-button/ic_export.svg');
+export const IconImport = require('images/icon-button/ic_import.svg');
+export const IconVector = require('images/icon-button/Icon-Vector.svg');
+export const IconNoti = require('images/icon-button/noti.svg');
+export const IconSelectRows = require('images/icon-button/select_rows.svg');
+export const IconFilterBlack = require('images/icon-button/ic_filter_black.svg');
+export const IconReplay = require('images/icon-button/ic_replay.svg');
+export const IconCopy = require('images/icon-button/Icon-Copy.svg');
+export const IconEraser = require('images/icon-button/Icon-Eraser.svg');
+export const IconPrint = require('images/icon-button/Icon-Print.svg');

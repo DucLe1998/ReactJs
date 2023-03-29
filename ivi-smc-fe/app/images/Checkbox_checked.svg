@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Checkbox" width="18" height="18" viewBox="0 0 18 18">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#fff;stroke-linecap:round;stroke-width:1.5px}
+        </style>
+    </defs>
+    <rect id="Rectangle_205" width="18" height="18" fill="#5993fd" data-name="Rectangle 205" rx="4"/>
+    <g id="Group_1240" data-name="Group 1240" transform="rotate(-45 -288.912 1713.18)">
+        <path id="Line_70" d="M0 0L8 0" class="cls-2" data-name="Line 70" transform="translate(1124.5 720.5)"/>
+        <path id="Line_71" d="M0 0L0 5" class="cls-2" data-name="Line 71" transform="translate(1124.5 715.5)"/>
+    </g>
+</svg>

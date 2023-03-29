@@ -1,0 +1,26 @@
+export const LOAD_DATA = 'app/nvr/LOAD_DATA';
+export const LOAD_DATA_SUCCESS = 'app/nvr/LOAD_DATA_SUCCESS';
+export const LOAD_DATA_ERROR = 'app/nvr/LOAD_DATA_ERROR';
+export const SHOW_LOADING = 'app/nvr/SHOW_LOADING';
+export const LOAD_NVR_DETAIL = 'app/nvr/LOAD_NVR_DETAIL';
+export const LOAD_NVR_DETAIL_SUCCESS = 'app/nvr/LOAD_NVR_DETAIL_SUCCESS';
+export const LOAD_NVR_DETAIL_ERROR = 'app/nvr/LOAD_NVR_DETAIL_ERROR';
+export const LOAD_NVR_CAMERAS = 'app/nvr/LOAD_NVR_CAMERAS';
+export const LOAD_NVR_CAMERAS_SUCCESS = 'app/nvr/LOAD_NVR_CAMERAS_SUCCESS';
+export const LOAD_NVR_CAMERAS_ERROR = 'app/nvr/LOAD_NVR_CAMERAS_ERROR';
+
+export const EXPORT_EXCEL = 'app/nvr/EXPORT_EXCEL';
+export const EXPORT_EXCEL_SUCCESS = 'app/nvr/EXPORT_EXCEL_SUCCESS';
+export const EXPORT_EXCEL_ERROR = 'app/nvr/EXPORT_EXCEL_ERROR';
+export const DELETE_ROWS = 'app/nvr/DELETE_ROWS';
+export const DELETE_ROWS_SUCCESS = 'app/nvr/DELETE_ROWS_SUCCESS';
+export const ADD_NEW = 'app/nvr/ADD_NEW';
+export const ADD_NEW_SUCCESS = 'app/nvr/ADD_NEW_SUCCESS';
+export const UPDATE_ROW = 'app/nvr/UPDATE_ROW';
+export const UPDATE_ROW_SUCCESS = 'app/nvr/UPDATE_ROW_SUCCESS';
+export const CHANGE_PASSWORD = 'app/nvr/CHANGE_PASSWORD';
+export const CHANGE_PASSWORD_SUCCESS = 'app/nvr/CHANGE_PASSWORD_SUCCESS';
+export const DOWNLOAD_TEMPLATE = 'app/nvr/DOWNLOAD_TEMPLATE';
+export const DOWNLOAD_TEMPLATE_SUCCESS = 'app/nvr/DOWNLOAD_TEMPLATE_SUCCESS';
+export const IMPORT_FILE = 'app/nvr/IMPORT_FILE';
+export const IMPORT_FILE_SUCCESS = 'app/nvr/IMPORT_FILE_SUCCESS';

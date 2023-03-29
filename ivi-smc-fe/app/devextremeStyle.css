@@ -1,0 +1,124 @@
+.dx-button i.dx-icon {
+  display: inline-block;
+  vertical-align: bottom;
+  font-size: 20px;
+}
+.dx-button img {
+  width: 20px;
+  height: 20px;
+}
+.button-box {
+  display: flex;
+  grid-gap: 5px;
+  flex-direction: row;
+}
+.form-btn-cancel > .dx-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 116px;
+  height: 40px;
+  background: #e2e2e2;
+  border: 1px solid #dddddd;
+  box-sizing: border-box;
+  border-radius: 8px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.form-btn-cancel > .dx-button:hover {
+  opacity: 0.9;
+  box-shadow: 0px 4px 10px #e2e2e2;
+  background: #e2e2e2;
+}
+
+.form-btn-success > .dx-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 116px;
+  height: 40px;
+  background: #00554a;
+  border-radius: 8px;
+  color: #ffffff;
+}
+
+.form-btn-success > .dx-button:hover {
+  opacity: 0.9;
+  box-shadow: 0px 4px 10px rgba(16, 156, 241, 0.24);
+  background: #00554a;
+}
+a {
+  text-decoration: none !important;
+}
+
+/* Css for tagbox -> move checkbox to right filter meeting room*/
+.tagbox-multi-select .dx-list-select-all {
+  margin: 0px !important;
+  border: none !important;
+  padding: 10px 0px !important;
+}
+
+.tagbox-multi-select .dx-list-select-all-label {
+  vertical-align: middle;
+}
+
+.tagbox-multi-select .dx-list-select-all-checkbox {
+  float: right;
+  margin: 0px 9px;
+  border: none;
+}
+
+.tagbox-multi-select .dx-list-item {
+  direction: rtl;
+}
+
+.tagbox-multi-select .dx-list-item-before-bag .dx-list-select-checkbox {
+  margin-left: 0px;
+}
+
+.tagbox-multi-select .dx-list-item-content {
+  direction: ltr;
+}
+
+/* css for check box of tagbox*/
+.tagbox-multi-select .dx-checkbox-icon {
+  border-radius: 4px;
+}
+
+.tagbox-multi-select .dx-checkbox-checked .dx-checkbox-icon {
+  color: #fff;
+  background-color: #4c96fd !important;
+}
+
+.tagbox-multi-select .dx-checkbox-indeterminate .dx-checkbox-icon {
+  color: #4c96fd;
+}
+
+/*Tagbox chiptag filter meeting room*/
+.tagbox-chip-tag .dx-scrollview-content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.tagbox-chip-tag .dx-item.dx-list-item {
+  width: auto;
+  margin: 5px;
+  border-radius: 8px;
+  background-color: #e2e2e2;
+}
+
+.tagbox-chip-tag .dx-item-content.dx-list-item-content {
+  padding: 7px 11px !important;
+}
+
+.tagbox-chip-tag
+  .dx-list:not(.dx-list-select-decorator-enabled)
+  .dx-list-item.dx-list-item-selected {
+  background: rgba(131, 180, 211, 0.2);
+}
+
+.dx-placeholder {
+  font-size: 16px;
+}

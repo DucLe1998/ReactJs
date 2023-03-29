@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Icon-Add" width="29" height="29" viewBox="0 0 29 29">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#fff;stroke-linecap:round;stroke-width:1.5px}
+        </style>
+    </defs>
+    <circle id="Ellipse_155" cx="14.5" cy="14.5" r="14.5" fill="#fff" data-name="Ellipse 155" opacity="0.2"/>
+    <g id="Group_1203" data-name="Group 1203" transform="translate(8.139 8.584)">
+        <path id="Line_68" d="M0 0L0 12.722" class="cls-2" data-name="Line 68" transform="translate(6.361)"/>
+        <path id="Line_69" d="M0 0L0 12.722" class="cls-2" data-name="Line 69" transform="rotate(90 3.424 9.298)"/>
+    </g>
+</svg>

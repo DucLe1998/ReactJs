@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39">
+    <defs>
+        <filter id="Ellipse_284" width="39" height="39" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur" stdDeviation="3"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g id="Group_9105" data-name="Group 9105" transform="translate(-691.189 -185.189)">
+        <g id="Group_9104" data-name="Group 9104" filter="url(#Ellipse_284)" transform="translate(691.189 185.189)">
+            <circle id="Ellipse_284-2" cx="10.5" cy="10.5" r="10.5" fill="#5993fd" data-name="Ellipse 284" transform="translate(9 6)"/>
+        </g>
+        <path id="Union_87" fill="#fff" d="M7.322 9.935a.2.2 0 0 1-.141-.341l.866-.867-1.61-1.609a.482.482 0 1 1 .682-.682l1.609 1.609.919-.919a.2.2 0 0 1 .341.142v2.467a.2.2 0 0 1-.2.2zm-7.122 0a.2.2 0 0 1-.2-.2V7.268a.2.2 0 0 1 .341-.141l.919.918 1.609-1.609a.482.482 0 1 1 .682.682L1.942 8.727l.866.867a.2.2 0 0 1-.141.341zM2.869 3.5L1.26 1.89l-.919.919A.2.2 0 0 1 0 2.667V.2A.2.2 0 0 1 .2 0h2.467a.2.2 0 0 1 .141.342l-.866.866 1.609 1.609a.482.482 0 1 1-.682.682zm3.568 0a.483.483 0 0 1 0-.682l1.609-1.61L7.18.342A.2.2 0 0 1 7.322 0h2.466a.2.2 0 0 1 .2.2v2.467a.2.2 0 0 1-.341.141l-.919-.919L7.119 3.5a.482.482 0 0 1-.682 0z" data-name="Union 87" transform="translate(705.61 196.612)"/>
+    </g>
+</svg>
